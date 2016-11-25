@@ -940,21 +940,21 @@ html{
 .slide10 img:nth-child(1){
     width: 2.72rem;
     height: 3.93rem;
-    top: 2.2rem;
+    top: 1.2rem;
     left:1.9rem;
     z-index:1;
 }
 .slide10 img:nth-child(2){
     width: 1.82rem;
     height: 1.23rem;
-    top: 4.1rem;
+    top: 3rem;
     left:2.4rem;
     z-index:2;
 }
 .slide10 img:nth-child(3){
     width: 3.13rem;
     height: 2.93rem;
-    top: 3.5rem;
+    top: 2.5rem;
     left:1.8rem;
     z-index:1;
 }
@@ -962,7 +962,7 @@ html{
     font-size: .4rem;
     color: #f600f6;
     position: absolute;
-    top: 6.5rem;
+    top: 5.5rem;
     left:2.4rem;
     z-index:1;
 }
@@ -970,7 +970,7 @@ html{
     font-size: .3rem;
     color: #000011;
     position: absolute;
-    top: 7.4rem;
+    top: 6.4rem;
     left:1.1rem;
     z-index:1;
 }
@@ -978,7 +978,7 @@ html{
     font-size: .3rem;
     color: #000011;
     position: absolute;
-    top: 8rem;
+    top: 7rem;
     left:2.2rem;
     z-index:1;
 }
@@ -986,7 +986,7 @@ html{
     font-size: .3rem;
     color: #000011;
     position: absolute;
-    top: 8.5rem;
+    top: 7.5rem;
     left:2.1rem;
     z-index:1;
 }
@@ -994,7 +994,7 @@ html{
     font-size: .3rem;
     color: #000011;
     position: absolute;
-    top: 9rem;
+    top: 8rem;
     left:2.5rem;
     z-index:1;
 }
@@ -1002,7 +1002,7 @@ html{
     font-size: .3rem;
     color: #000011;
     position: absolute;
-    top: 9.5rem;
+    top: 8.5rem;
     left:2.3rem;
     z-index:1;
 }
@@ -1010,7 +1010,7 @@ html{
     font-size: .3rem;
     color: #000011;
     position: absolute;
-    top: 10rem;
+    top: 9rem;
     left:2.3rem;
     z-index:1;
 }
@@ -1018,7 +1018,7 @@ html{
     font-size: .45rem;
     color: #f25807;
     position: absolute;
-    top: 10.6rem;
+    top: 9.6rem;
     left:.4rem;
     z-index:1;
 }
@@ -1232,21 +1232,21 @@ html{
 }
 #page3 img:nth-child(5){
     z-index:2;
-    -webkit-animation:fadeIn 1s 1.5s 1 both;
-    -moz-animation:fadeIn 1s 1.5s 1 both;
-    animation:fadeIn 1s 1.5s 1 both;
+    -webkit-animation:bounceIn 1s 1.5s 1 both;
+    -moz-animation:bounceIn 1s 1.5s 1 both;
+    animation:bounceIn 1s 1.5s 1 both;
 }
 #page3 span:nth-child(6){
     z-index:3;
-    -webkit-animation:fadeIn 1s 1.5s 1 both;
-    -moz-animation:fadeIn 1s 1.5s 1 both;
-    animation:fadeIn 1s 1.5s 1 both;
+    -webkit-animation:fadeInLeft 1s 1.5s 1 both;
+    -moz-animation:fadeInLeft 1s 1.5s 1 both;
+    animation:fadeInLeft 1s 1.5s 1 both;
 }
 #page3 span:nth-child(7){
     z-index:3;
-    -webkit-animation:fadeIn 1s 1.5s 1 both;
-    -moz-animation:fadeIn 1s 1.5s 1 both;
-    animation:fadeIn 1s 1.5s 1 both;
+    -webkit-animation:fadeInRight 1s 1.5s 1 both;
+    -moz-animation:fadeInRight 1s 1.5s 1 both;
+    animation:fadeInRight 1s 1.5s 1 both;
 }
 #page3 img:nth-child(8){
     z-index:0;
