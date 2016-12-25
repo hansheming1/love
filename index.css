@@ -155,6 +155,11 @@ html{
     background-size: cover;
     position: relative;
 }
+.slide13{
+    background: url("img/a60.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
 .slide1 img:nth-child(1){
     z-index:0;
     position: absolute;
@@ -1110,6 +1115,29 @@ html{
     left:2.3rem;
     z-index:1;
 }
+.slide13 img:nth-child(1){
+    width: 4rem;
+    height: 4.6rem;
+    top: 1.8rem;
+    left:1.4rem;
+    z-index:0;
+}
+.slide13 span:nth-child(2){
+    font-size: .4rem;
+    color: #f20d0d;
+    position: absolute;
+    top: 6.8rem;
+    left:2rem;
+    z-index:1;
+}
+.slide13 span:nth-child(3){
+    font-size: .4rem;
+    color: #f20d0d;
+    position: absolute;
+    top: 7.5rem;
+    left:2rem;
+    z-index:1;
+}
 #page1 img:nth-child(1){
     -webkit-animation:rotateInDownRight 1s 1.5s 1 both;
     -moz-animation:rotateInDownRight 1s 1.5s 1 both;
@@ -1800,6 +1828,26 @@ html{
 
 }
 #page12 span:nth-child(3){
+    z-index:0;
+    -webkit-animation:bounceInRight 1s 2.5s 1 both;
+    -moz-animation:bounceInRight 1s 2.5s 1 both;
+    animation:bounceInRight 1s 2.5s 1 both;
+
+}
+#page13 img:nth-child(1){
+    z-index:0;
+    -webkit-animation:rotateInUpRight 2s 2s 1 both;
+    -moz-animation:rotateInUpRight 2s 2s 1 both;
+    animation:rotateInUpRight 2s 2s 1 both;
+}
+#page13 span:nth-child(2){
+    z-index:0;
+    -webkit-animation:bounceInLeft 1s 2.5s 1 both;
+    -moz-animation:bounceInLeft 1s 2.5s 1 both;
+    animation:bounceInLeft 1s 2.5s 1 both;
+
+}
+#page13 span:nth-child(3){
     z-index:0;
     -webkit-animation:bounceInRight 1s 2.5s 1 both;
     -moz-animation:bounceInRight 1s 2.5s 1 both;
