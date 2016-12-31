@@ -160,6 +160,11 @@ html{
     background-size: cover;
     position: relative;
 }
+.slide14{
+    background: url("img/1.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+}
 .slide1 img:nth-child(1){
     z-index:0;
     position: absolute;
@@ -1138,6 +1143,63 @@ html{
     left:2rem;
     z-index:1;
 }
+.slide14 img:nth-child(1){
+    width: 100%;
+    height: 6.35rem;
+    bottom: 0;
+    z-index:1;
+}
+.slide14 img:nth-child(2){
+    width: 1.86rem;
+    height: 3.78rem;
+    left: 2.5rem;
+    top: .5rem;
+    z-index:1;
+}
+.slide14 img:nth-child(3){
+    width: .81rem;
+    height: .76rem;
+    left: .5rem;
+    top: 2.5rem;
+    z-index:1;
+}
+.slide14 img:nth-child(4){
+    width: .56rem;
+    height: .52rem;
+    left: 4.5rem;
+    top: 4.5rem;
+    z-index:1;
+}
+.slide14 img:nth-child(5){
+    width: 1rem;
+    height: 1rem;
+    left: 5rem;
+    top: 1.5rem;
+    z-index:1;
+}
+.slide14 img:nth-child(6){
+    width: 1.28rem;
+    height: 1.04rem;
+    left: .5rem;
+    top: .5rem;
+    z-index:0;
+}
+.slide14 span:nth-child(7){
+    font-size: .35rem;
+    position: absolute;
+    left: 2.7rem;
+    top: 4.5rem;
+    color: #f20d0d;
+    z-index:0;
+}
+.slide14 span:nth-child(8){
+    font-size: .35rem;
+    position: absolute;
+    left: 1.7rem;
+    top: 5rem;
+    color: #f20d0d;
+    z-index:0;
+}
 #page1 img:nth-child(1){
     -webkit-animation:rotateInDownRight 1s 1.5s 1 both;
     -moz-animation:rotateInDownRight 1s 1.5s 1 both;
@@ -1852,6 +1914,62 @@ html{
     -webkit-animation:bounceInRight 1s 2.5s 1 both;
     -moz-animation:bounceInRight 1s 2.5s 1 both;
     animation:bounceInRight 1s 2.5s 1 both;
+
+}
+#page14 img:nth-child(1){
+    z-index:0;
+    -webkit-animation:slideUp 1s 0.5s 1 both;
+    -moz-animation:slideUp 1s 0.5s 1 both;
+    animation:slideUp 1s 0.5s 1 both;
+
+}
+#page14 img:nth-child(2){
+    z-index:0;
+    -webkit-animation:fadeInDown 1.5s 2.3s 1 both;
+    -moz-animation:fadeInDown 1.5s 2.3s 1 both;
+    animation:fadeInDown 1.5s 2.3s 1 both;
+
+}
+#page14 img:nth-child(3){
+    z-index:0;
+    -webkit-animation:translate 1.5s 1.8s infinite both;
+    -moz-animation:translate 1.5s 1.8s infinite both;
+    animation:translate 1.5s 1.8s infinite both;
+
+}
+#page14 img:nth-child(4){
+    z-index:0;
+    -webkit-animation:translate 1.5s 1.3s infinite both;
+    -moz-animation:translate 1.5s 1.3s infinite both;
+    animation:translate 1.5s 1.3s infinite both;
+
+}
+#page14 img:nth-child(5){
+    z-index:0;
+    -webkit-animation:fadeInDown 1.5s 2.3s 1 both;
+    -moz-animation:fadeInDown 1.5s 2.3s 1 both;
+    animation:fadeInDown 1.5s 2.3s 1 both;
+
+}
+#page14 img:nth-child(6){
+    z-index:0;
+    -webkit-animation:fadeInDown 1.5s 2.3s 1 both;
+    -moz-animation:fadeInDown 1.5s 2.3s 1 both;
+    animation:fadeInDown 1.5s 2.3s 1 both;
+
+}
+#page14 span:nth-child(7){
+    z-index:0;
+    -webkit-animation:rotateInUpRight 1.5s 2.3s 1 both;
+    -moz-animation:rotateInUpRight 1.5s 2.3s 1 both;
+    animation:rotateInUpRight 1.5s 2.3s 1 both;
+
+}
+#page14 span:nth-child(8){
+    z-index:0;
+    -webkit-animation:fadeInDown 1.5s 2.3s 1 both;
+    -moz-animation:fadeInDown 1.5s 2.3s 1 both;
+    animation:fadeInDown 1.5s 2.3s 1 both;
 
 }
 @keyframes rotateInDownRight {
@@ -2801,5 +2919,35 @@ html{
         transform: perspective(400px);
         -webkit-animation-timing-function: ease-in;
         animation-timing-function: ease-in;
+    }
+}
+@keyframes translate {
+    0% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    100% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    }
+}
+@-webkit-keyframes translate {
+    0% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    100% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
     }
 }
